@@ -1,0 +1,28 @@
+.logo {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+div {
+    list-style: none;
+}
+
+.tituloFooter {
+    display: inline;
+}
+
+.imgSlider {
+    height: 450px;
+    object-fit: cover;
+}
+
+.icono {
+    font-size: 40px;
+}
+
+@media all and (max-width: 576px) {
+
+    .imgSlider {
+        height: 350px;
+    }
+
+}
